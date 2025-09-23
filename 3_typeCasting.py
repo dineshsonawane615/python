@@ -22,3 +22,15 @@ print(a, b, c)
 y=str(2)            #y will be '2'
 z=str(5.0)          #z will be '5.0'
 print(y, z)
+
+# from integer to boolean
+value =0
+is_true=bool(value)
+print(is_true)
+
+# converting to list
+# from string to list
+text="hello"
+text_list=list(text)
+print(text_list)
+
