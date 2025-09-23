@@ -1,4 +1,4 @@
-#list - ordered, mutable collection, can store duplicate element
+#list - ordered, mutable collection, can store duplicate element , dynamic array
 fruits=["apple", "mango", "bannana"]
 print(fruits)
 print(fruits[0])
@@ -24,3 +24,19 @@ print(data)
 print("--------------------------------------------------------")
 
 #frozenset - immutable version of set
+f1=frozenset([500,600,700])
+print(f1)
+#immutable set
+#f1.add(200)
+print("--------------------------------------------------------")
+
+# dictionary
+person={"fname":"Sid", "age":21}
+print(person)
+
+#accessing single value
+print("person name is {person[""fname]}") 
+print(person["age"])
+
+person["city"]="pune"
+print(person)
