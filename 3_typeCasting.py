@@ -1,4 +1,5 @@
-#implicit casting
+#Typecasting means converting one data type into another.
+#implicit casting - 
 num1=10
 num2=3.0
 div=num1/num2
