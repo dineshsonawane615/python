@@ -48,6 +48,21 @@ l4=(1,2,3)
 print(l3 is l4) #True
 print(l3 is not l4) #False
 
+# Membership Operator
+# in and not in : are used to check particular string
+# or substring present in a given sequence (string, list, tuple) or not
+# for dict it will check only keys are present or not
+list1=['apple', 'Mango', 'Bannana']
+# print(10 in 11)  # give error - argument of type 'int' is not iterable
+print('apple' in list1)
+print('Mango' not in list1) 
+
+
+
+
+
+
+
 
 
 
